@@ -1,0 +1,25 @@
+[versions]
+java = "21"
+kotlin = "2.0.0"
+kotlinLanguageVersion = "2.0"
+slf4j = "2.0.17"
+wisecodersCommonGradle = "5.2.4"
+wisecodersCommonLib = "11.2.0"
+
+
+[libraries]
+wisecoders-commonLib-commonSlf4j = { module = "com.wisecoders.common_lib:common-slf4j", version.ref = "wisecodersCommonLib" }
+
+slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
+javadbf = { module = "com.github.albfernandez:javadbf", version = "1.14.1" }
+h2 = { module = "com.h2database:h2", version = "2.3.232" }
+logback-classic = { module = "ch.qos.logback:logback-classic", version = "1.5.18" }
+
+# test libraries
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version = "5.13.3" }
+junit-platformLauncher = { module = "org.junit.platform:junit-platform-launcher", version = "1.13.3" }
+assertj-core = { module = "org.assertj:assertj-core", version = "3.27.3" }
+
+
+[plugins]
+wisecoders-commonGradle-jdbcDriver = { id = "com.wisecoders.common_gradle.jdbc_driver.jdbc-driver", version.ref = "wisecodersCommonGradle" }
