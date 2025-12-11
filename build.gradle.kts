@@ -14,6 +14,5 @@ dependencies {
     implementation(libs.javadbf)
     implementation(libs.h2)
 
-    // implementation(libs.wisecoders.commonJdbc.commonJdbcJvm)
      runtimeOnly(libs.logback.classic)
 }
