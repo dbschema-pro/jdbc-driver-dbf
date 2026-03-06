@@ -1,6 +1,6 @@
 # DBF-xBase-FoxPro JDBC Driver
 
-The DBF-xBase-FoxPro JDBC driver is provided by [DbSchema](https://dbschema.com/jdbc-driver/dbf.html)
+The DBF-xBase-FoxPro JDBC driver is provided by [DbSchema](https://dbschema.com/documentation/dbf/)
 
 ## Features
 
