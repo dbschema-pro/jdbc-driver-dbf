@@ -26,7 +26,7 @@ while( rs.next() ){
 
 ## Download the JDBC Driver
 
-The driver can be downloaded from the [DbSchema website](https://dbschema.com/jdbc-drivers/DBFJdbcDriver.zip).
+The driver can be downloaded from the [DbSchema website](https://dbschema.com/jdbc-drivers/dbfjdbcdriver.zip).
 
 ## How the Driver Works
 
