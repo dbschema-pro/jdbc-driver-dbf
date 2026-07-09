@@ -3,7 +3,7 @@ java = "25"
 kotlin = "2.3.10"
 slf4j = "2.0.17"
 wisecodersCommonGradle = "29.0.0"
-wisecodersCommonLib = "46.0.0"
+wisecodersCommonLib = "48.0.0"
 
 
 [libraries]
