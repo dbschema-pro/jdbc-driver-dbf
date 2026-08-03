@@ -2,7 +2,7 @@
 java = "25"
 slf4j = "2.0.17"
 wisecodersCommonGradle = "30.0.0"
-wisecodersCommonLib = "58.0.0"
+wisecodersCommonLib = "59.0.0"
 
 
 [libraries]
